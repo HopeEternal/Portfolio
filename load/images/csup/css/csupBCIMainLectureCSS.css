@@ -1,0 +1,290 @@
+.mainCont {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 125%;
+}
+
+.mainContMulti {
+	font-family: 'Open Sans', sans-serif; 
+    margin: -8px;
+}
+
+/*Lecture Banner Styles*/
+.lectureBanner {
+	background:url("csup_banner_image_wide_flip.jpg");
+	background-color: #0f100f; 
+	background-attachment: fixed; 
+	width: 100%;     
+	box-shadow: 0px 2px 10px #7d7d7d;
+}
+
+.leftRect {
+	background: #22282a; 
+	width: 400px; 
+	height: 120px;
+}
+
+img.csupMainLogo {
+	padding: 22px 40px;
+}
+
+.leftTriangle {
+	width: 0; 
+	height: 0; 
+	border-top: 120px solid #22282a; 
+	border-right: 120px solid transparent; 
+}
+
+.rightRect {
+	background: #22282a; 
+	width: 100px; 
+	height: 120px; 
+}
+
+.courseCodeCont {
+	background: #1f2226; 
+	color: #fff; 
+	top: 15px;
+	height: 70px; 
+	border-radius: 50%; 
+	position: absolute; 
+	padding: 12px 6px 2px 6px; 
+	box-shadow: 0px 5px 12px #130f16;
+}
+
+.courseCode {
+	font-weight: lighter;
+}
+
+.rightTriangle {
+	width: 0; 
+	height: 0;
+	border-bottom: 120px solid #22282a; 
+	border-left: 120px solid transparent; 
+}
+
+/*Begin Main Page Content*/
+
+.moduleTitle {
+	color: #fff; 
+	padding: 20px; 
+	margin: 0px;
+	background: #173A63; 
+	text-align: center; 
+	/*border-radius: 10px;*/
+}
+
+.contentWrapper {
+	margin: 10px 40px 20px 40px;
+}
+
+/*Modue Lecture Elements*/
+.imgCont {
+	margin: 30px;
+}
+
+
+.h5pWrapper {
+	padding: 30px;
+	margin: 30px auto;
+	background: white;
+}
+
+.callout {
+	padding: 20px 30px; 
+	margin: 30px auto; 
+	border-radius: 20px;
+}
+
+.iconCont {
+	padding: 15px;	
+}
+
+.videoCont {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; 
+	height: 0; 
+	overflow: hidden;
+	margin: 30px;
+}
+
+.videoCont iframe, .videoCont embed, .videoCont object, .videoCont video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.reference p {
+	margin-left: 3em; 
+	text-indent: -3em;
+}
+
+/*Helper Classes*/
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.centerInline {
+	text-align: center;
+}
+
+.centerBlock {
+	margin: 0 auto;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.width50 {
+	width: 50px;
+}
+
+.width75 {
+	width: 75px;
+}
+
+.width100 {
+	width: 100px;
+}
+
+.width150 {
+	width: 150px;
+}
+
+.width250 {
+	width: 250px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.width500 {
+	width: 500px;
+}
+
+.width750 {
+	width: 750px;
+}
+
+.width1000 {
+	width: 1000px;
+}
+
+.width20pc {
+	width: 20%;
+}
+
+.width40pc {
+	width: 40%;
+}
+
+.width60pc {
+	width: 60%;
+}
+
+.width80pc {
+	width: 80%;
+}
+
+.width100pc {
+	width: 100%;
+}
+
+.boxShadow10 {
+	box-shadow: 0px 2px 10px #7d7d7d;
+}
+
+.grayBack {
+	background: #95acba;
+}
+
+.dkBlueBack {
+	background: #183b5d;
+}
+
+.blackBack {
+	background: #22282a;
+}
+
+.textWhite {
+	color: white;
+}
+
+.customHR {
+}
+
+/*Module Outcomes Section*/
+
+.modOutcomeContents {
+	padding: 10px 20px; 
+	min-height: 300px;
+}
+
+.modOutcomeWrapper {
+	background: #E4E2E0;
+}
+
+.modOutcomeTopBorder {
+	height:15px;
+	background:-webkit-linear-gradient(0deg,transparent 15px,#f5f4f3 15px),-webkit-linear-gradient(-45deg,#f5f4f3 10px,transparent 10px),-webkit-linear-gradient(45deg,#f5f4f3 10px,transparent 10px);
+	background:-moz-linear-gradient(0deg,transparent 15px,#f5f4f3 15px),-moz-linear-gradient(-45deg,#f5f4f3 10px,transparent 10px),-moz-linear-gradient(45deg,#f5f4f3 10px,transparent 10px);
+	background:-o-linear-gradient(0deg,transparent 15px,#f5f4f3 15px),-o-linear-gradient(-45deg,#f5f4f3 10px,transparent 10px),-o-linear-gradient(45deg,#f5f4f3 10px,transparent 10px);
+	background:-ms-linear-gradient(0deg,transparent 15px,#f5f4f3 15px),-ms-linear-gradient(-45deg,#f5f4f3 10px,transparent 10px),-ms-linear-gradient(45deg,#f5f4f3 10px,transparent 10px);
+	background:linear-gradient(0deg,transparent 15px,#f5f4f3 15px),linear-gradient(-45deg,#f5f4f3 10px,transparent 10px),linear-gradient(45deg,#f5f4f3 10px,transparent 10px);
+	background-color:transparent;
+	background-position:center center;
+	background-repeat:repeat-x;-webkit-background-size:100% 100%,15px 15px,15px 15px;
+	-moz-background-size:100% 100%,15px 15px,15px 15px;
+	background-size:100% 100%,15px 15px,15px 15px;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+
+.hangingIndent {
+	text-indent: -28px;
+	padding-left: 28px;
+}
+
+
+/*Media Queries to Fix Banner*/
+
+
+@media screen and (max-width: 1200px) {
+.rightRect {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+.rightRect {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.rightTriangle {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	.leftTriangle {
+		display: none;
+	}
+	.leftRect {
+	    width: 100%;
+}
+}
