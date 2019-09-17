@@ -1,0 +1,19 @@
+# risalee.com
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Risa -- Solo Designer and Developer
+
+# THANKS TO
+
+    Jeffrey D., Chase B. and Richard T. for looking at my revised Mock-Ups at least three times each, and providing the User Interface perspective that only internet junkies of their caliber could provide.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+	Dreamweaver CS5.5, Photoshop, Illustrator
+    Normalize.css, jQuery, Modernizr
+
+# Last Updated: 3/18/14
+    
